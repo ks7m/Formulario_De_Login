@@ -1,10 +1,10 @@
-function entrar() {
-    const loading = document.getElementById("loadingScreen");
+function entrar()  {
+    const loading = document.getElementById ("loadingScreen");
 
     loading.style.display = "flex";
 
     setTimeout(() => {
         loading.style.display = "none";
-        alert("Login realizado com sucesso!");
+        alert("Parabéns Marcelo");
     }, 2000);
 }
